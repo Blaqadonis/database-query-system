@@ -1,0 +1,14 @@
+gradio
+langchain
+langchain_huggingface
+langchain_community
+langchain_core
+pandas
+pyprojroot
+python-dotenv
+PyYAML
+SQLAlchemy
+#psycopg2  in case you want Postgres instead of SQLite
+chromadb
+langchain_groq
+
