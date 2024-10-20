@@ -1,4 +1,6 @@
 # KnowledgeBlaq
+![knowledgeblaq](https://github.com/user-attachments/assets/3fa768bb-ba2d-44e3-926a-3aaca7944e0d)
+
 
 
 ```KnowledgeBlaq``` is a multi-agent AI application that enables users to interact with SQL databases and using Retrieval-Augmented Generation (RAG) to respond to queries. It supports multiple modes of operation including querying stored SQL databases, processing CSV/XLSX data, and performing RAG-based searches with embeddings from ChromaDB. The chatbot leverages LangChain agents, Hugging Face embeddings, and can now work with both SQLite (for local development) and PostgreSQL (for production).
@@ -38,13 +40,15 @@ To get started, first clone this repository and install the dependencies:
 
 bash
 Copy code
-git clone https://github.com/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Blaqadonis/database-query-system.git
 
 # Create a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # or for Windows: venv\Scripts\activate
-
+OR
+conda create -n venv python==3.10
+# Create an environment file
+GROQ_API_KEY=...
 # Install dependencies
 pip install -r requirements.txt
 Setting Up PostgreSQL
